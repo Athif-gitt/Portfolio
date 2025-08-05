@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/37cdd8a41b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer/ <br> Full Stack Developer</p>
+                <h1>Hi, I'm <span> Athif</span> Faisal <br> From <span class = "district">calicut</span>, Kerala</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------about------------------ -->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user3.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Hi, I’m Athif Faisal, a self-driven and detail-oriented Full Stack Developer in the making, passionate about building clean, user-friendly web experiences. I recently developed my own portfolio website using HTML, CSS, and JavaScript, showcasing my growing skill set in front-end development. I enjoy exploring modern technologies like React and the MERN stack, and I’m always eager to learn and push my boundaries. Whether it’s coding a responsive layout or solving a tricky bug, I love the challenge of turning ideas into real, interactive products. I’m also deeply interested in UI/UX design and how it shapes meaningful digital experiences. Outside of tech, I enjoy refining my personal brand and helping others with creative design ideas.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Problem solving</span><br>Debugging and code optimisaton</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Intern</span><br>Front End Development at Nest Digital Academy</li>
+                        <li><span>Project 1</span><br>Developed a personal portfolio website using HTML, CSS, and JavaScript to showcase skills and projects.</li>
+                        <li><span>Project 2</span><br>Built a full-stack pharmaceutical inventory and purchase management platform namely "Pharma Hub" using React for frontend, Node.js and Express for backend, MongoDB for database, and integrated user authentication and deployment tools.</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>BCA</span><br>Bachelor of Computer Applications - Calicut University</li>
+                        <li><span>12th Grade</span><br>Science Stream - PHSS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------------------------------services----------------------------- -->
+<div id="services">
+    <div class="container">
+    <h1 class="subtitle">My Skills</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-brands fa-html5"></i>
+            <h2>HTML</h2>
+            <p>Skilled in creating well-structured, semantic HTML5 to ensure accessibility, SEO-friendly design, and responsive layouts.
+            </p>
+        </div>
+        <div>
+            <i class="fa-brands fa-css"></i>
+            <h2>CSS</h2>
+            <p>Proficient in CSS3 for creating responsive, visually appealing, and user-friendly interfaces using Flexbox, Grid, and modern design practices.
+            </p>
+        </div>
+        <div>
+            <i class="fa-brands fa-square-js"></i>
+            <h2>JavaScript</h2>
+            <p>Proficient in JavaScript for DOM manipulation, event handling, and implementing dynamic features with clean and efficient code.
+            </p>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    <!-- -----------------------portfolio------------ -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/CloneSS.png" alt="">
+                    <div class="layer">
+                        <h3>E-commerce clone</h3>
+                        <p>Developed a responsive e-commerce website UI clone using HTML5, CSS3, and JavaScript, focusing on clean design and seamless user experience. Implemented structured layouts with Flexbox and CSS Grid for responsiveness across devices. Key features include a homepage banner, product listings with hover effects, navigation menus, and a footer section. This project helped strengthen my skills in front-end development, responsive design, and UI optimization, ensuring an attractive and functional layout aligned with modern web design principles.</p>
+                        <!-- <a href=""><i class="fa-solid fa-link"></i></a> -->
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="images/CloneSS.png" alt="">
+                     <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam officia vero, odit sunt earum explicabo eveniet unde quis, laudantium nisi vel impedit? Minima vero debitis alias dolores ducimus aspernatur fugiat.</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/CloneSS.png" alt="">
+                     <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam officia vero, odit sunt earum explicabo eveniet unde quis, laudantium nisi vel impedit? Minima vero debitis alias dolores ducimus aspernatur fugiat.</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div> -->
+            </div>
+            <!-- <a href="#" class="btn" >See More</a> -->
+        </div>
+     </div>
+<!-- -------------contact----------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1><div class="sub-title">Lets Connect</div></h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> athiffaisal55@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> +91 9946380582</p>
+                <div class="social-media-icons">
+                    <!-- <a href=""><i class="fa-brands fa-facebook"></i></a> -->
+                    <!-- <a href=""><i class="fa-brands fa-twitter"></i></a> -->
+                    <a href="https://www.instagram.com/__athif___?igsh=MXBkZ3Vvamt5d3Vmeg%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=https://www.linkedin.com/in/athif-faisal-329ab7330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app""><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2025 <i class="fa-solid fa-skull"></i>Athif Faisal. All rights reserved.</p>
+    </div>
+ </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(event, tabname) {
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+
+</script>
+<form name="submit-to-google-sheet">
+  <!-- <input name="email" type="email" placeholder="Email" required> -->
+  <!-- <button type="submit">Send</button> -->
+</form>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxIUl_kWhK0apuJyUasAaAMtG78019cUIl1B9RhhDNzkNA0R4Fu9W6YjFZeGK_VmfBe/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent succesfuly"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+    
+</body>
+</html>
